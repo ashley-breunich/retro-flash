@@ -3,6 +3,7 @@
 
 //TODO1 Arrays of questions and more
 var totalPoints = 0;
+var totalQuestions = 0;
 var cultQuestions = [];
 var actionQuestions = [];
 var scifiQuestions = [];
@@ -86,6 +87,14 @@ sendCult();
 //TODO7 Function that checks for the correct answer and adds the points
 
 //TODO8 Function that runs when the user has answered ten questions, display scoreboard
+
+function stopGame() {
+  if (totalQuestions === 10) {
+    var remove = document.getElementById('populate-question');
+    remove.textContent = '';
+    //Need to insert the function for the Leader board
+  }
+}
 
 //TODO9 Function to check if the user is a new or returning player
 
