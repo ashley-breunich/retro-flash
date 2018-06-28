@@ -254,9 +254,9 @@ function leaderBoard() {
   var ans5 = document.getElementById('ans5');
   ans5.textContent = '';
   if(totalPoints < 50) {
-    message.textContent = 'Alrighty Then ' + localStorage.userName + ' you scored ' + totalPoints + ' points';
+    message.textContent = 'Alrighty then, ' + localStorage.userName + '. You scored ' + totalPoints + ' points.';
   } else {
-    message.textContent = 'Congratulations ' + localStorage.userName + ' you scored ' + totalPoints + ' points';
+    message.textContent = 'Congratulations, ' + localStorage.userName + '! You scored ' + totalPoints + ' points.';
   }
   document.getElementById('answers').hidden = false;
   question.textContent = 'LEADERBOARD';
