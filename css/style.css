@@ -11,8 +11,8 @@ body {
 #login {
   width: 320px;
   height: 420px;
-  background: rgba(107, 7, 85, 0.7);
-  color: #fff;
+  background: rgba(247, 68, 245, .95);
+  color: #fafafa;
   top: 50%;
   left: 50%;
   position: absolute;
@@ -22,22 +22,47 @@ body {
 }
 
 #loginHeader {
-  margin-bottom: 30px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  margin-bottom: 40px;
   padding: 0, 0, 20px;
   text-align: center;
   font-size: 30px;
-  color:  #fff;
+  color:  #fafafa;
 }
 
-#login-box p {
-  margin: 0;
-  padding: 0;
-  font-weight: bold;
-}
-
-#login-box input {
-  width: 100%;
+#login p {
+  font-family: 'Barlow Semi Condensed', sans-serif;
   margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#username {
+  display: block;
+  width: 70%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#submit {
+  display: block;
+  background:  transparent;
+  border:  2px solid #fafafa;
+  color: #fafafa;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  padding: 7px 9px 7px 9px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#submit:hover {
+  background: #fafafa;
+  color: #f958f7;
 }
 
 /* MAIN ELEMENTS */
